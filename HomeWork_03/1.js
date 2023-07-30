@@ -4,11 +4,11 @@
 
 const name = prompt("Введите свое имя: ");
 
-function greeting(){
-    return (`Приветствую господин(-жа) ${name}!`);
-}
-console.log(greeting(name));
-
-// function greeting(name){
-//     console.log(greeting(`Приветствую господин(-жа) ${name}!`));
+// function greeting(){
+//     return `Приветствую господин(-жа) ${name}!`;
 // }
+// console.log(greeting(name));
+
+function greeting(name){
+    console.log(`Приветствую господин(-жа) ${name}!`);
+}
