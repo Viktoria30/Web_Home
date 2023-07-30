@@ -10,5 +10,5 @@ function greeting(){
 console.log(greeting(name));
 
 // function greeting(name){
-//     console.log(greeting(`Приветствую господин(-жа) ${name}!`));
+//     console.log(`Приветствую господин(-жа) ${name}!`);
 // }
